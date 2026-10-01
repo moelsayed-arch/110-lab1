@@ -1,0 +1,7 @@
+User Stories – Lemonade Stand Game
+As a player, I want to start the game with a set amount of money so that I can buy supplies and run my lemonade stand.
+As a player, I want to choose how much lemonade to make so that I can decide how much inventory to have.
+As a player, I want to set the price of my lemonade so that I can try to make a profit.
+As a player, I want customers to buy lemonade based on my price and available lemonade so that I can earn money.
+As a player, I want to see my money, lemonade inventory, sales, and profit so that I can track how well my stand is doing.
+As a player, I want the game to progress through multiple days so that I can try different strategies and improve my results.

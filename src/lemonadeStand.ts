@@ -1,4 +1,20 @@
 export class LemonadeStand {
+
+public sellLemonade(numberOfCups: number, pricePerCup: number): number {
+    const cupsAvailable = this.getMaxLemonadeCups();
+    const cupsSold = Math.min(numberOfCups, cupsAvailable);
+
+    this.cups -= cupsSold * this.cupsPerLemonade;
+    this.ice -= cupsSold * this.icePerLemonade;
+    this.lemons -= cupsSold * this.lemonsPerLemonade;
+    this.sugar -= cupsSold * this.sugarPerLemonade;
+
+    this.cash += cupsSold * pricePerCup;
+
+    return cupsSold;
+}
+
+
     private cash: number;
 
     private cups: number;
